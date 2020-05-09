@@ -4,7 +4,6 @@ security:
   oauth2:
     client:
       clientId: clientID from Okta
-      clientSecret: Client_secret from Okta
-      accessTokenUri: okta_uri/v1/token
+      clientSecret: Client_secret from Okta      
     resource:
       tokenInfoUri: okta_uri/v1/introspect
