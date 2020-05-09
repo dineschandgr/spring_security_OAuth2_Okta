@@ -1,0 +1,28 @@
+server:
+  port: 8083
+resource1:
+  baseUrl: http://localhost:8080
+  oauth2:
+    client:
+      grantType: client_credentials
+      clientId: clientID from Okta
+      clientSecret: Client_secret from Okta
+      accessTokenUri: okta_uri/v1/token
+      scope: custom_mod
+resource2:
+  baseUrl: http://localhost:8081
+  oauth2:
+    client:
+      grantType: client_credentials
+      clientId: clientID from Okta
+      clientSecret: Client_secret from Okta
+      accessTokenUri: okta_uri/v1/token
+      scope: custom_mod
+spring: 
+  security: 
+    user: 
+      name: custom_username
+      password: custom_password
+
+          
+      
