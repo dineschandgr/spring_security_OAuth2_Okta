@@ -47,3 +47,4 @@ spring security OAuth2 using Okta Authorization server and 2 Spring boot Resourc
 13. Developer has to write very few lines of code to achieve this
 
 
+<img width="1000" alt="API Architecture" src="https://github.com/dineschandgr/spring_security_OAuth2_Okta/blob/master/Oauth2_client_credentials.bmp">
