@@ -43,3 +43,7 @@ spring security OAuth2 using Okta Authorization server and 2 Spring boot Resourc
 10. Once the authorization server verifies the access token and sends the response to the resource server, it checks the scope and 
     provides the resource to the client app
 11. The same steps are repeated for the Resource server when you hit the uri http://localhost:8083/getResource2
+12. Spring security handles all the steps in the backend by using spring-security-oauth2-autoconfigure. 
+13. Developer has to write very few lines of code to achieve this
+
+
