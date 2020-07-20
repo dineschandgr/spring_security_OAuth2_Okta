@@ -14,7 +14,7 @@ spring security OAuth2 using Okta Authorization server and 2 Spring boot Resourc
 
 2. Create 2 resource servers
 
-  1. Create a spring boot resource server application by downlaoding the pom.xml file
+  1. Create a spring boot resource server application by downloading the pom.xml file
   2. Populate the client_id, client_secret and the tokeninfo uri in the application.yml file as provided
   3. The resource server will use this information to communication to the authorization server 
      to authorize the client app to access the resources
