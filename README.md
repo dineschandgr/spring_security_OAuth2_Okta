@@ -21,7 +21,7 @@ spring security OAuth2 using Okta Authorization server and 2 Spring boot Resourc
   4. Repeat the same step for resource server 2 but change the resource url and the output
 
 
-3. Create a client to cosume resources from resource servers
+3. Create a client to consume resources from resource servers
 
     1. Create a spring boot client application by downlaoding the pom.xml file
     2. Provide the baseUrl for the 2 resource servers in the application.yml file
