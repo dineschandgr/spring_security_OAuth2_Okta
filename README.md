@@ -1,6 +1,8 @@
 # spring_security_OAuth2_Okta
 spring security OAuth2 using Okta Authorization server and 2 Spring boot Resource servers and 1 Spring boot client
 
+This is the Client Credentials flow which is used for microservice authorization. It does not deal with end users
+
 #Requirements
 
 1. Create an Authorization Server Application
